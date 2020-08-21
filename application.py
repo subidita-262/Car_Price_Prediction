@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
-app = Flask(__name__)
+application = app = Flask(__name__)
 model = pickle.load(open('random_forest_regression.pkl', 'rb'))
 @app.route('/',methods=['GET'])
 def Home():

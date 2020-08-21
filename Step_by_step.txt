@@ -1,0 +1,8 @@
+1. Create an environment - 'carprediction' and install all the packages needed
+2. In jupyter notebook train the model, visualise and train with RandomForestRegressor, apply that on X_test
+3. Visualise the difference of prediction and y_test by ploting scatter plot(linear means good prediction)
+4. Dump the files in a pickle file
+5. Make the Requirements.txt file by pip 'freeze > requirements. txt' command in the environment
+6. Open Spyder from the same location to design the front end - app.py
+7. No scalling required as we used Random forest else we had to use standard scaller
+8. model.predict(...) there the features should be in same format how we trained our model
